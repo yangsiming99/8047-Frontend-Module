@@ -6,16 +6,16 @@ defineProps({
 </script>
 
 <template>
-    <v-card id="card">
-        <h3>{{ title }}</h3>
+    <article>
+        <header><b>{{ title }}</b></header>
         <slot />
-    </v-card>
+    </article>
 </template>
 
 <style scoped>
-    #card {
-        width: 70vw;
-        height: 60vh;
-        padding: 1.5em;
+    article{
+        color: black;
+        min-height: 600px;
+        position: relative;
     }
 </style>

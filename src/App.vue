@@ -1,12 +1,12 @@
 <script setup>
-import Panel from './components/Panel.vue';
-import Home from './pages/home.vue';
-
+import "@picocss/pico/css/pico.min.css"
 
 </script>
 
 <template>
-  <Home />
+  <div id="nav">
+      <RouterView />
+  </div>
 </template>
 
 <style scoped>
